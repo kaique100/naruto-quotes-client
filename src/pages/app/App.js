@@ -40,7 +40,7 @@ export function App() {
 }
 
 const Content = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   box-sizing: border-box;
   padding: 0 50px;
   display: flex;
@@ -50,6 +50,6 @@ const Content = styled.div`
 `;
 
 const NarutoImg = styled.img`
-  max-width: 50vw;
+  max-width: 44vw;
   align-self: flex-end;
 `;
